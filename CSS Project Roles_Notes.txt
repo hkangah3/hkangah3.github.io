@@ -1,0 +1,124 @@
+﻿DRAFTS: 10/31 (Friday)
+DUE: 11/14 (Friday)
+
+
+* Topic/Purpose of the website – What action do you want the customer to do or knowledge do you want them to acquire after visiting your website?
+   * PV-benefits: website details all the free things students actually get with their tuition, and on-campus amenities they may not know about
+      * Homepage
+      * Academic and Tech Benefits
+      * Physical & Wellness benefits
+      * Financial Benefits and resources
+      * Campus Life & Social benefits
+      * Essential/ everyday benefits
+
+
+* Target Audience – Who should visit your website? General information is good here. For example – Consumers who are interested in what? Age range?
+   * University students (18-22+)
+   * Benefits, Amenities
+
+
+* Roles and Responsibilities -
+   * Who will complete what? Which page or what content? Expected completion date
+                1) Homepage - Kiera H
+                2) Academic and Tech Benefits - Jadarius W
+                3) Physical & Wellness benefits - Nathan A
+                4) Financial Benefits and resources - Hagar Kangah 
+                5) Campus Life & Social benefits - Rasheem L
+                6) Essential/ everyday benefits - 
+                7) CSS - Hagar K
+
+
+
+
+   * Who will create the logo? Expected date of completion.
+
+
+
+
+   * Who and when CSS file? Perhaps to be done after draft pages or before
+Hagar K
+
+
+   * Who will located and configure the web hosting portion of the project?
+Hagar K
+
+
+   * Who all are expected to test, ensure quick download time, and debug when the website comes together?
+Hagar K
+
+
+   * Who will oversee that the website satisfies the grade requirements and add any necessary features?
+                Jadarius W
+
+
+   * Who all will create the story-line (details of the website in which context consistency is important)?
+                Bryce
+
+
+   * Who will analyze which tool(s) to use for coordinating the coding? Central location accessible to all team members. This Discussion Board should be used extensively also.
+
+
+                
+* Site Map – Page Layout, Web Design (Chapter 5 – Hierarchical, Inline, Random) – Home Page and how will the remainder of the website be arranged. Remember the 3 Click Rule for the Hierarchical sites.
+
+
+* Domain Name – Publish your website on the internet. Do not pay for it. Use the course recommended sites listed on eCourses.
+
+
+* Stage 2: Planning for Consistencies + Submission of Project Design & Home Page to the Team Project Discussion Board.
+
+
+* More Detailed Items of Agreement such as: Hagar K
+   * Logo – non-copyrighted – Who will design it? Using Photoshop? Google Image edited? Logo Maker?
+   * Color Scheme Agreement – Chapters 3, 4, 5 – Review pages 83 – 86; 178 – 181; 215 – 219 specifically.
+   * Font Agreement – pages 89 and so on.
+
+
+* Who will implement the required techniques and features at least once including but not limited to the following:
+   * Images, video, tables, paragraphs, headings, lists, hyperlinks, forms, etc.
+multicolumn format
+
+
+
+
+   * div HTML4 element or article HTML 5 elements to develop a layout for the website
+                
+
+
+   * All formatting should be done using CSS and linked to externally.
+                Hagar K
+
+
+   * Photoshop can be used to design a logo for your website.
+
+
+
+
+   * Who will review the web guidelines described in Chapter 5 should be followed during design and development.
+
+
+   * Who will evaluate based on creativity, completeness, and quality. When?
+Jadarius W
+
+
+   * Who will review the resulting draft website for compliance of the guidelines introduced in Chapter 5 in determining good website design? When?
+
+
+(Please feel free to review the Chapter 4 Example and Textbook Instruction files within Week 6 eCourses module in order to get a idea of the standard expectation for your team website. It may not have all of the elements that I have required for each webpage but it is a descent example.)
+
+
+   * Stage 3:  EVERYONE post their draft web pages to the Team Discussion Board.  DRAFT page is not required to be the finished page.  Progress is expected to be visible and comparable with other team members. (BEFORE CLASS, 10/31)
+
+
+   * Stage 4:  Review all team members’ draft pages and recommend improvements.  All team members should post feedback to the Team’s Discussion Board.  Include positive statements and possible recommend improvements or suggestions.  Ensure all team project requirements are met as described in the requirements document from your Instructor.
+
+
+   * Preliminary Project Submission - Each team member should agreed upon changes.  Now, the team will review the updated results.
+
+
+   * Final Project Submission: Due to the Canvas drop box.
+
+
+PV PLACE
+DEGREE WORKS
+Register form -> Change major -> dr yang, my info -> leave major and minor blank- > add concentration , sign -> dr yang pending ->
