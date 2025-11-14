@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: Lucida, Helvetica, sans-serif;
+  color: #1a1a1a;
+}
+
+.topbar {
+  width: 100%;
+  background-color: #6c3baa;
+  display: flex;
+  justify-content: space-between; /* logo left, nav right */
+  align-items: center;
+  padding: 10px 40px;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 170px;
+  height: auto;
+}
+
+/* ==============================
+   NAV BAR — consistent on all pages
+============================== */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fffdf0;
+  font-size: 20px;
+  font-family: Lucida, Helvetica, sans-serif;
+  position: relative;
+  transition: color 0.3s;
+}
+
+/* underline animation */
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #f4b400;
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f4b400;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* headings */
+h1, h2, h3 {
+  font-family: Lucida, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #333333;
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+
+    color: #ffffff;
+    font-family: Lucida, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 60px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 6px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
