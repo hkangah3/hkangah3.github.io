@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PVAMU Financial Aid & Resources</title>
+    <link rel="stylesheet" href="external_g2.css">
+
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons (Keeping them for static display) -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        /* Custom CSS for a touch of PVAMU school colors and feel */
+        :root {
+            --pv-purple: #4B0082; /* Deep Purple */
+            --pv-gold: #FFC72C;   /* Gold/Yellow */
+            --pv-dark: #1F2937;
+        }
+
+        .header-bg {
+            background-color: var(--pv-purple);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            color: var(--pv-purple);
+            border-bottom: 2px solid var(--pv-gold);
+            padding-bottom: 0.5rem;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #e5e7eb;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: var(--pv-gold);
+            color: var(--pv-dark);
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #facc15; /* A slightly darker gold */
+        }
+
+    </style>
+</head>
+<body class="min-h-screen">
+
+<!-- EXTERNAL NAV BAR -->
+<div class="topbar">
+    <div class="logo">
+        <a href="index_g2.html">
+            <img src="pv_benefits_logo.png" alt="PVAMU Benefits Logo">
+        </a>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index_g2.html">Home</a></li>
+            <li><a href="academicbenefits_g2.html">Academics</a></li>
+            <li><a href="phys_wellness_g2.html">Physical</a></li>
+            <li><a href="finance_g2.html">Financial</a></li>
+            <li><a href="social_g2.html">Campus Life</a></li>
+            <li><a href="about_g2.html">About Us</a></li>
+        </ul>
+    </nav>
+</div>
+
+    <!-- Main Content Container -->
+    <main class="container mx-auto p-4 md:p-8">
+
+        <!-- Introduction/Key Info Div -->
+        <div class="bg-white p-6 rounded-lg shadow-xl mb-10 border-t-4 border-t-yellow-500">
+            <h2 class="text-2xl font-bold mb-3 text-gray-700">Your Path to Financial Aid</h2>
+            <p class="text-lg text-gray-600 mb-4">
+                The Prairie View A&M University Office of Student Financial Aid and Scholarships is here to help you navigate the process of funding your education. The first step is always completing the FAFSA.
+            </p>
+        </div>
+
+        <!-- Types of Aid Section (Div) -->
+        <section id="aid" class="mb-12">
+            <h2 class="section-title text-3xl font-extrabold mb-6">1. Types of Financial Aid</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Card 1: Grants -->
+                <div class="card p-5 rounded-xl shadow-lg">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <i data-lucide="hand-coins" class="icon-color h-7 w-7"></i>
+                        <h3 class="text-xl font-semibold">Grants (Must Not Repay)</h3>
+                    </div>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1 ml-4">
+                        <li>Federal Pell Grant</li>
+                        <li>FSEOG</li>
+                        <li>TEXAS Grant (State)</li>
+                        <li>TPEG (Texas Public Education Grant)</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2: Loans -->
+                <div class="card p-5 rounded-xl shadow-lg">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <i data-lucide="banknote" class="icon-color h-7 w-7"></i>
+                        <h3 class="text-xl font-semibold">Loans (Repayable)</h3>
+                    </div>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1 ml-4">
+                        <li>Federal Direct Subsidized Loan</li>
+                        <li>Federal Direct Unsubsidized Loan</li>
+                        <li>Federal Direct PLUS Loan (Parent/Grad)</li>
+                        <li>Short-Term Loans (Treasury Services)</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3: Work-Study -->
+                <div class="card p-5 rounded-xl shadow-lg">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <i data-lucide="briefcase" class="icon-color h-7 w-7"></i>
+                        <h3 class="text-xl font-semibold">Federal Work-Study</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm">
+                        Allows students to earn money for educational expenses through part-time employment on or off campus. Great for gaining work experience!
+                    </p>
+                    <a href="https://www.pvamu.edu/seo" target="_blank" class="text-sm text-blue-600 hover:text-blue-800 font-medium mt-2 inline-block">View Student Employment</a>
+                </div>
+                
+                <!-- Card 4: Exemptions -->
+                <div class="card p-5 rounded-xl shadow-lg">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <i data-lucide="gavel" class="icon-color h-7 w-7"></i>
+                        <h3 class="text-xl font-semibold">Exemptions/Waivers</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm">
+                        Financial assistance for certain Texas residents (e.g., Hazlewood, Blind/Deaf Students, Foster Care alumni) that waives all or part of tuition/fees.
+                    </p>
+                    <a href="https://www.pvamu.edu/fmsv/treasury-services/payments/exemptions-and-waivers/" target="_blank" class="text-sm text-blue-600 hover:text-blue-800 font-medium mt-2 inline-block">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scholarships/Resources Section (Div) - ID changed to match nav link -->
+        <section id="resources" class="mb-12">
+            <h2 class="section-title text-3xl font-extrabold mb-6">2. Scholarships & Key Resources</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                
+                <!-- Institutional Scholarships Card -->
+                <div class="card p-6 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3">Institutional & Merit-Based</h3>
+                    <p class="text-gray-600 mb-4">
+                        PVAMU offers highly competitive scholarships based on academic achievement.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1 ml-4">
+                        <li>**Regents' Student Merit Scholarship** (Most prestigious, covers tuition, housing, meals, books)</li>
+                        <li>Presidential Academic Scholarship</li>
+                        <li>Transfer and Departmental Scholarships</li>
+                        <li>General Scholarship Application required annually.</li>
+                    </ul>
+                </div>
+
+                <!-- External Resources Card -->
+                <div class="card p-6 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3">Other Key Financial Resources</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
+                        <li>**Student Emergency Assistance Fund (SEAF):** For students facing financial hardships that might prevent graduation.</li>
+                        <li>**Financial Literacy:** The Office of Financial Aid provides educational resources to manage money.</li>
+                        <li>**Panther Meal Share Program:** To address food insecurity on campus.</li>
+                        <li>**Career Closet:** Provides professional attire for interviews and career fairs.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section (Div) - Always Visible -->
+        <section id="contact" class="mb-12">
+            <h2 class="section-title text-3xl font-extrabold mb-6">3. Connect with Financial Aid</h2>
+
+            <div class="bg-indigo-100 p-6 rounded-xl shadow-inner flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+                <p class="text-xl font-medium text-gray-800">
+                    Need personalized assistance? Contact the PVAMU Financial Aid team today!
+                </p>
+                <!-- This button is now just a link for a more direct non-JS approach -->
+                <a href="#contact-details-box" class="btn-primary py-3 px-6 rounded-full shadow-md hover:shadow-lg focus:outline-none mt-4 md:mt-0 inline-flex items-center">
+                    <i data-lucide="phone" class="h-5 w-5 inline-block mr-2"></i> Scroll to Contact Info
+                </a>
+            </div>
+
+            <!-- Contact Details Div (Always Visible) -->
+            <div id="contact-details-box" class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-l-purple-700">
+                <h3 class="text-xl font-bold mb-3 text-purple-700">Office of Student Financial Aid & Scholarships</h3>
+                <div class="grid sm:grid-cols-2 gap-4">
+                    <div>
+                        <p class="font-semibold flex items-center mb-1"><i data-lucide="map-pin" class="h-4 w-4 mr-2 text-red-500"></i> Physical Address:</p>
+                        <p class="ml-6 text-gray-700">Willie A. Tempton, Sr. Memorial Student Center, 3rd Floor</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold flex items-center mb-1"><i data-lucide="mail" class="h-4 w-4 mr-2 text-blue-500"></i> General Email:</p>
+                        <p class="ml-6 text-gray-700"><a href="mailto:fadmail@pvamu.edu" class="hover:underline">fadmail@pvamu.edu</a></p>
+                    </div>
+                    <div>
+                        <p class="font-semibold flex items-center mb-1"><i data-lucide="phone-call" class="h-4 w-4 mr-2 text-green-500"></i> Phone:</p>
+                        <p class="ml-6 text-gray-700">(936) 261-1000</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold flex items-center mb-1"><i data-lucide="calendar-check" class="h-4 w-4 mr-2 text-orange-500"></i> Schedule a Meeting:</p>
+                        <p class="ml-6 text-gray-700"><a href="https://www.pvamu.edu/faid/contact-us/" target="_blank" class="hover:underline text-purple-600">Meet with Us Virtually (QLess)</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="header-bg text-center p-4 text-white mt-10">
+        <p>&copy; 2025 Prairie View A&M University Financial Aid Resources. Go Panthers!</p>
+    </footer>
+
+    <!-- Initialize Lucide Icons for static display -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+        });
+    </script>
+</body>
+</html>
